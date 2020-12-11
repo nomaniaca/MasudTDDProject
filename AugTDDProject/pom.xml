@@ -7,8 +7,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<developers>
 		<developer>
-			<id>Juel</id>
-			<name>Juel</name>
+			<id>Masud Nomani</id>
+			<name>Masud</name>
 			<organization>TalenTech</organization>
 			<organizationUrl>http://www.talentech.com</organizationUrl>
 			<roles>
@@ -64,7 +64,9 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>UpsRegressionTest.xml</suiteXmlFile>
 						<suiteXmlFile>UpsLoginTest.xml</suiteXmlFile>
-						<!-- <suiteXmlFile>UpsCrossBrowserTest.xml</suiteXmlFile> -->
+						<suiteXmlFile>UpsShippingTest.xml</suiteXmlFile>
+						<suiteXmlFile>UpsTrackingTest.xml</suiteXmlFile>
+						<suiteXmlFile>UpsCrossBrowserTest.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
