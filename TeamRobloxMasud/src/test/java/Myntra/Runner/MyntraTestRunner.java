@@ -9,7 +9,7 @@ public class MyntraTestRunner {
 			"json:target/cucumber-jsonreports/cucumber.json",
 			"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, 
 			features = {"src/test/resources/Features" }, 
-			glue = { "Myntra.StepDef", "Myntra.Utilities"}, tags = {"@Sanity5"}, monochrome = true)
+			glue = { "Myntra.StepDef", "Myntra.Utilities"}, tags = {""}, monochrome = true)
 
 	public class RunCucumberTest extends AbstractTestNGCucumberTests {
 
